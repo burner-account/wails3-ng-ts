@@ -33,6 +33,11 @@ Change into the YOUR_PROJECT_NAME directory.
 
    This will create a production-ready executable in the `bin` directory.
 
+## Bad template design choice
+
+To get the ng-cli part to work with the wails3 tasks, the frontend/package.json scripts currently contains something fishy: A call to node in order to read the WAILS_VITE_PORT variable. This will be gone as soon as a way presents itself to properly configure FRONTEND_DEVSERVER_URL without pitfalls.
+
+
 ## Exploring Wails3 Features
 
 Now that you have your project set up, it's time to explore the features that Wails3 offers:
