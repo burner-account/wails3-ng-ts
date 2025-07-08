@@ -1,0 +1,31 @@
+<div class="container">
+    <div>
+        <a data-wml-openURL="https://wails.io">
+            <img src="/wails.png" class="logo" alt="Wails logo"/>
+        </a>
+        <a data-wml-openURL="https://angular.dev/">
+            <img src="/angular_icon_gradient.gif" class="logo angular" alt="Angular logo"/>
+        </a>
+        <a data-wml-openURL="https://angular.dev/">
+            <img src="/angular_signals.png" class="logo signals" alt="Angular signals logo"/>
+        </a>
+    </div>
+    <h1>Wails ng zoneless ts</h1>
+    <div class="result" id="result">Please enter your name below 👇</div>
+    <div class="card">
+        <div class="input-box" id="input">
+            <input class="input" id="name" type="text" autocomplete="off" [value]="name()"/>
+            <button class="btn" id="greet" (click)="doGreet(name() || 'anonymous')">Greet</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div><p>Click on the Wails logo to learn more</p></div>
+        <div>
+        @if (time(); as time) {
+            <p id="time">{{ time}}]</p>
+        } @else {
+            <p id="time">Listening for Time event...</p>
+        }
+        </div>
+    </div>
+</div>

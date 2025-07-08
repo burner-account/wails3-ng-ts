@@ -1,0 +1,9 @@
+{
+  "name": "wails3-ng-ts",
+  "shortname": "wails3-ng-ts",
+  "author": "burner-account",
+  "description": "wails3 angular zoneless template",
+  "helpurl": "https://github.com/burner-account/wails3-ng-ts",
+  "version": "v0.0.1",
+  "schema": 3
+}
