@@ -3,7 +3,8 @@
 This is a template for a wails3 app utilizing angular 20+ zoneless.
 
 ## Getting Started
-1. Have go, node/npm and wails3 installed.
+1. [Have go, node/npm and wails3 installed.](https://wails.io/docs/next/gettingstarted/installation)
+https://wails.io/docs/next/gettingstarted/installation
 
 2. Navigate to the folder which shall contain your project directory in the terminal.
 
