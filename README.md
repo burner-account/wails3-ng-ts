@@ -1,12 +1,23 @@
-# Welcome to Your New Wails3 Project!
+# Wails3 angular zoneless template
 
-Congratulations on generating your Wails3 application! This README will guide you through the next steps to get your project up and running.
+This is a template for a wails3 app utilizing angular 20+ zoneless.
 
 ## Getting Started
+1. Have go, node/npm and wails3 installed.
 
-1. Navigate to your project directory in the terminal.
+2. Navigate to the folder which shall contain your project directory in the terminal.
 
-2. To run your application in development mode, use the following command:
+3. To create a new wails3 app from this template, run the command:
+
+   ```
+   wails3 init -n YOUR_PROJECT_NAME -t https://github.com/burner-account/wails3-ng-ts
+   ```
+
+## Develop your app
+
+Change into the YOUR_PROJECT_NAME directory.
+
+1. To run your application in development mode, use the following command:
 
    ```
    wails3 dev
@@ -14,13 +25,13 @@ Congratulations on generating your Wails3 application! This README will guide yo
 
    This will start your application and enable hot-reloading for both frontend and backend changes.
 
-3. To build your application for production, use:
+2. To build your application for production, use:
 
    ```
    wails3 build
    ```
 
-   This will create a production-ready executable in the `build` directory.
+   This will create a production-ready executable in the `bin` directory.
 
 ## Exploring Wails3 Features
 
@@ -46,8 +57,6 @@ Take a moment to familiarize yourself with your project structure:
 
 - `frontend/`: Contains your frontend code (HTML, CSS, JavaScript/TypeScript)
 - `main.go`: The entry point of your Go backend
-- `app.go`: Define your application structure and methods here
-- `wails.json`: Configuration file for your Wails project
 
 ## Next Steps
 
